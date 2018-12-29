@@ -5,13 +5,10 @@ Debugger (WinDbg/DbgEng) extension DLL: create artificial symbols and artificial
 TBD
 
 ## Exported extensions
-* help
-Print help message
-* addsymbol <NAME> <OFFSET> <SIZE>
-Create artificial symbol in any existing module
-* addmodule <NAME> <PATH> <BASE> <SIZE>
-Create artificial symbol in any existing module
+* help - print help message
+* addsymbol \<NAME\> \<OFFSET\> \<SIZE\> - create artificial symbol in any existing module
+* addmodule \<NAME\> \<PATH\> \<BASE\> \<SIZE\> - Create artificial symbol in any existing module
 
 ## Debug engine API references
- * [IDebugSymbols3::AddSyntheticSymbol]()
- * [IDebugSymbols3::AddSyntheticModule]()
+ * [IDebugSymbols3::AddSyntheticSymbol](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-addsyntheticsymbol)
+ * [IDebugSymbols3::AddSyntheticModule](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-addsyntheticmodule)
